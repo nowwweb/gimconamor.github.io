@@ -7,8 +7,10 @@ body{
     margin: auto;
     text-align:center;
     width: 70%;
+    padding-top: 4%;
 
 }
+/*
 button{
     background: black;
     color: aliceblue;
@@ -19,10 +21,52 @@ button{
     width: 120px;
     display:block;
 
+}*/
+/* menu nav */
+nav {
+    position: fixed;
+    top:0;
+    left: 15%;
+    width: 70%;
+    height: 100px;
+    padding: 10px 90px;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    border-bottom:1px solid #fff;
+
 }
+nav .logo{
+    float: left;
+    width: 10px;
+    height: 10px;
+}
+nav ul{
+    list-style: none;
+    float:none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding:12px 30px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+}  
+
 @media screen and (max-width:980px) {
 .semana1{
     width:100%;
+    padding-top: 10%;
     margin-left: 0;
     margin: 0%;
     display: block;
@@ -31,4 +75,11 @@ button{
 body {
     background: black;
 }
+nav{
+    width: 100%;
+    left: 0;
+}nav ul li a {
+    font-size: 18px;
+}
+
 }
