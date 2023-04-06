@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(135deg,#ec09bb 0%,#764ba2 100%);
+    margin: 0;
+}
+.semana1{
+    display:block;
+    margin: auto;
+    text-align: center;
+
+}
