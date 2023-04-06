@@ -5,17 +5,30 @@ body{
 .semana1{
     display:block;
     margin: auto;
-    text-align: center;
+    text-align:center;
+    width: 70%;
 
 }
 button{
     background: black;
     color: aliceblue;
-    margin-top: -70%;
-    margin-left: 70%;
+    margin-top: -60%;
+    margin-left: 42%;
     position:absolute;
     height: 80px;
     width: 120px;
     display:block;
 
+}
+@media screen and (max-width:980px) {
+.semana1{
+    width:100%;
+    margin-left: 0;
+    margin: 0%;
+    display: block;
+    text-align: left;
+}
+body {
+    background: black;
+}
 }
