@@ -91,6 +91,22 @@ nav ul li a:hover {
     background: rgba(0,0,0,0.7);
     border-radius: 6px;
 }
+/* semana 1 de entrenamiento */
+.semana1{
+    width: 150px;
+    height: 40px;
+    top: -1250px;
+    border: 0;
+    margin-bottom: 175px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ec09bb 0%,#764ba2 100%);
+    color: #fff;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
 /* controles responsivos */
 @media screen and (max-width:980px) {
 .bestronge {
@@ -148,5 +164,20 @@ nav .logo{
     position:absolute;
     display:block;
 }
-
+/* semana 1 de entrenamiento responsive */
+.semana1{
+    width: 100px;
+    height: 20px;
+    top: -566px;
+    border: 0;
+    margin-bottom: 78px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ec09bb 0%,#764ba2 100%);
+    color: #fff;
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
 }
