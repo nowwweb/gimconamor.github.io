@@ -13,12 +13,114 @@ body{
     
 
 }
-.dos{
+/*estilos semana 1 */
+.semana1{
+    width: 170px;
+    height: 80px;
+    top: -2530px;
+    border: 0;
+    margin-bottom: 350px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
+    color: #fff;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.uno{
     margin-top:-4.6px;
     padding: 0;
     border: none;
-
 }
+.semana1entrenamiento{
+    background: black;
+    height: 2900px;
+}
+
+/*estilos semana 2 */
+.semana2{
+    width: 180px;
+    height: 80px;
+    top: -2550px;
+    border: 0;
+    margin-bottom: 350px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
+    color: #fff;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dos{
+    margin-top:0;
+    padding: 0;
+    border: none;
+}
+.semana2entrenamiento{
+    background: black;
+    height: 2750px;
+}
+/*estilos semana 5 */
+.semana5{
+    width: 150px;
+    height: 40px;
+    top: -1250px;
+    border: 0;
+    margin-bottom: 175px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
+    color: #fff;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cinco{
+    margin-top:0;
+    padding: 0;
+    border: none;
+}
+.semana5entrenamiento{
+    background: black;
+    height: 2690px;
+}
+
+/*estilos semana 6 */
+.semana6{
+    width: 150px;
+    height: 40px;
+    top: -1250px;
+    border: 0;
+    margin-bottom: 175px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
+    color: #fff;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.seis{
+    margin-top:0;
+    padding: 0;
+    border: none;
+}
+.semana6entrenamiento{
+    background: black;
+    height: 2700px;
+}
+
+
 /*
 button{
     background: black;
@@ -44,13 +146,16 @@ nav {
     border-bottom:1px solid #fff;
 
 }
-nav .logo{
+.logo{
     position: relative;
     float: left;
-    width: 10px;
-    height: 10px;
     padding: 0%;
-    margin: 0%;
+    margin:-28px 0;
+
+}
+.icono{
+    width: 122px;
+    height: 122px;
 }
 nav ul{
     list-style: none;
@@ -63,7 +168,7 @@ nav ul{
 }
 li{
     background: #ec09bb;
-    width: 100px;
+    width: 300px;
     height: 60px;
     text-align: center;
     margin: 0 10px;
@@ -84,7 +189,7 @@ nav ul li a {
     color: #fff;
     padding:25px 5px;
     text-decoration: none;
-    font-size:130%;
+    font-size:30px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -93,22 +198,7 @@ nav ul li a:hover {
     border-radius: 6px;
 }
 /* semana 1 de entrenamiento */
-.semana1{
-    width: 150px;
-    height: 40px;
-    top: -1250px;
-    border: 0;
-    margin-bottom: 175px;
-    margin-left: 42%;
-    display: block;
-    position:relative;
-    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
-    color: #fff;
-    font-size: 25px;
-    font-family:sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-}
+
 /* controles responsivos */
 @media screen and (max-width:980px) {
 .bestronge {
@@ -135,6 +225,7 @@ nav ul li a {
     text-align: left;
     padding-left: 2px;
     width: 100%;
+    font-size: 12px;
 }
 li{
     background-image: linear-gradient(135deg,#ec09bb 0%,#764ba2 100%);
@@ -160,11 +251,15 @@ li{
 
 nav .logo{
     text-align: right;
-    margin-top: -10px;
+    margin-top: -5px;
     margin-left:-75px;
     padding: 0;
     position:absolute;
     display:block;
+}
+.icono{
+    width: 60px;
+    height: 60px;
 }
 /* semana 1 de entrenamiento responsive */
 .semana1{
@@ -183,5 +278,76 @@ nav .logo{
     font-family:sans-serif;
     font-weight: bold;
     text-decoration: none;
+}
+.semana1entrenamiento{
+    background: black;
+    height: 640px;
+}
+/* semana 2 de entrenamiento responsive */
+.semana2{
+    width: 100px;
+    height: 20px;
+    top: -566px;
+    border: 0;
+    margin-bottom: 78px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.semana2entrenamiento{
+    background: black;
+    height: 608px;
+}
+/* semana 5 de entrenamiento responsive */
+.semana5{
+    width: 100px;
+    height: 20px;
+    top: -566px;
+    border: 0;
+    margin-bottom: 78px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.semana5entrenamiento{
+    background: black;
+    height: 594px;
+}
+
+/* semana 6 de entrenamiento responsive */
+.semana6{
+    width: 100px;
+    height: 20px;
+    top: -566px;
+    border: 0;
+    margin-bottom: 78px;
+    margin-left: 42%;
+    display: block;
+    position:relative;
+    background-image: linear-gradient(135deg,#ecd509 0%,#e08b0c 100%);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.semana6entrenamiento{
+    background: black;
+    height: 594px;
 }
 }
