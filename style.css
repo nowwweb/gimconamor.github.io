@@ -154,8 +154,8 @@ nav {
 
 }
 .icono{
-    width: 122px;
-    height: 122px;
+    width: 152px;
+    height: 152px;
 }
 nav ul{
     list-style: none;
@@ -249,7 +249,7 @@ li{
 
 }
 
-nav .logo{
+.logo{
     text-align: right;
     margin-top: -5px;
     margin-left:-75px;
